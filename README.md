@@ -6,8 +6,32 @@ BooksFASTAPI is a simple API developed using FastAPI to demonstrate the basic CR
 
 ### Prerequisites
 
-- Python 3.9 or higher
-- PostgreSQL
+This project depends on the following Python packages:
+
+- **FastAPI**: A modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints. [More info](https://fastapi.tiangolo.com/)
+- **Uvicorn**: An ASGI server implementation, using uvloop and httptools. It allows for serving of FastAPI applications. [More info](https://www.uvicorn.org/)
+- **SQLAlchemy**: A SQL toolkit and Object-Relational Mapping (ORM) library for Python. It gives application developers the full power and flexibility of SQL. [More info](https://www.sqlalchemy.org/)
+- **psycopg2**: PostgreSQL adapter for Python. It is used to connect and interact with PostgreSQL databases from Python applications. [More info](http://initd.org/psycopg/)
+
+### Required Python Version
+- Python 3.9
+
+### Installation
+
+To install the project dependencies, you will need `pipenv`. If you haven't installed it, you can do so using `pip`:
+
+```bash
+pip install pipenv
+```
+
+Once `pipenv` is installed, navigate to the project directory (where the `Pipfile` is located) and run:
+
+```bash
+pipenv install
+```
+
+This will install all the dependencies as listed in the `Pipfile`.
+
 
 ### Installation
 
